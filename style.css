@@ -1,0 +1,88 @@
+/* fonnts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* end*/
+
+/* all selector*/
+* {
+    font-family: "Space Mono";
+
+    padding: 0px;
+    margin: 0px;
+}
+/* end */
+
+/* hero */
+.hero {
+    background-color: rgb(255, 255, 255) ;
+    padding: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* end */
+
+/* span */
+span {
+    color: rgb(255, 234, 0);
+}
+/* end */
+
+/* button */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 234, 0);
+}
+
+button:hover {
+    background-color: rgba(255, 234, 0, 0.686);
+}
+/* end */
+
+/* content */
+.content {
+    margin: 50px;
+}
+
+
+
+.content__article__title {
+    font-size: 35px;
+}
+
+.content__article_paragraf {
+    font-weight: 100;
+}
+
+.content__span {
+    font-size: 50px;
+}
+/* end */
+
+/* footer */
+.footer {
+    padding: 25px;
+    background-color: rgb(255, 234, 0);
+    
+
+}
+
+.footer__link {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer__link a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+    color: inherit;
+    display: inline-block;
+}
+
+
+
+
+/* end */
+
